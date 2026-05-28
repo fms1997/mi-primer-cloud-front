@@ -35,7 +35,7 @@ function App() {
       <input
         value={titulo}
         onChange={(e) => setTitulo(e.target.value)}
-        placeholder="Nueva tarea"
+        placeholder="Nueva tarea."
       />
 
       <button onClick={crearTarea}>Guardar</button>
